@@ -1,5 +1,14 @@
 # CHANGELOG — cv
 
+## [1.3.0] — 2026-09-09
+
+### Changed
+- [x] Full CV rewrite for Ismael POUANSI KOLOKO (École Polytechnique, tutoring, certifications, football)
+- [x] Source renamed to `CV_POUANSI_Ismael.tex` / output `CV_POUANSI_Ismael.pdf`
+- [x] Workflow `build-pdf.yml` + README + AGENTS updated to the new name and repo (`ismael-Ing-1/cv`)
+
+---
+
 ## [Unreleased]
 
 ---
