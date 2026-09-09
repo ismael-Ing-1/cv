@@ -31,7 +31,7 @@
 - [x] GitLab CI pipeline (`.gitlab-ci.yml`): pdflatex double-pass, PDF + PNG artifacts (1 year)
 - [x] GitHub Actions pipeline (`.github/workflows/build-pdf.yml`): pdflatex, PDF artifact, auto-preview PNG commit, Release on tag
 - [x] README with CI badges and preview image
-- [x] Source renamed to `CV_KAMDEM_Ivann.tex` / output `CV_KAMDEM_Ivann.pdf`
+- [x] Source renamed to `CV_POUANSI_Ismael.tex` / output `CV_POUANSI_Ismael.pdf`
 
 ### Fixed
 - [x] Color rendering: `\moderncvcolor` must precede `\moderncvstyle` in moderncv v2.4.1 (banking loads `\colorlet{sectioncolor}{color1}` at package load time)

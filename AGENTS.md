@@ -1,6 +1,6 @@
 # AGENTS.md — cv
 
-LaTeX CV (moderncv banking, blue, pdflatex) — single source `CV_KAMDEM_Ivann.tex`.
+LaTeX CV (moderncv banking, blue, pdflatex) — single source `CV_POUANSI_Ismael.tex`.
 Workflows: `make build` (always rebuilds) · `make check` (dashes → build → 1 page, gates `make push`) · `make push` (github + gitlab).
 
 ## Style guide (KπX rules — enforced on every CV edit)
