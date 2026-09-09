@@ -1,0 +1,136 @@
+%% start of file `template.tex'
+
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+\documentclass[11pt,a4paper]{moderncv}
+
+% Color MUST be declared before style (moderncv v2.4.1): banking does
+% \colorlet{sectioncolor}{color1} at package load time — color1 must
+% already exist, otherwise it silently falls back to black.
+\moderncvcolor{blue}
+\moderncvstyle{banking}
+
+% Override first-name tint: banking default is lastnamecolor!60 (lighter).
+% Force both first and last name to the same full blue.
+\colorlet{firstnamecolor}{color1}
+
+% pdflatex font encoding — gives proper bold/italic with tgpagella
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[left=0.5in,right=0.5in,top=0.4in,bottom=0.3in]{geometry}
+
+\usepackage{enumitem}
+\usepackage{url}
+
+% personal data
+\name{Ismael}{POUANSI KOLOKO}
+\address{Palaiseau, France}{}{}
+\phone[mobile]{+33 7 80 87 54 35}
+\email{ismael-christian.pouansi-koloko@polytechnique.edu}
+\homepage{https://linkedin.com/in/ismael-pouansi-b8697b24b}
+\social[github]{ismael-Ing-1}
+
+\begin{document}
+
+\makecvtitle
+\vspace{-30pt}
+
+{\centering\small{
+Applied Mathematics, Computer Science \& Artificial Intelligence student at École Polytechnique.
+}\par}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2025 -- 2029}{}{École Polytechnique}{Palaiseau, France}{}{
+\begin{itemize}[leftmargin=0.15in, topsep=0pt, itemsep=0.0em]
+\item Engineering diploma, « Cycle Ingénieur Polytechnicien – Programme Grande École » with a focus on Applied Mathematics, Computer Science and Artificial Intelligence
+\item Recipient of the Excellence Scholarship awarded by the École Polytechnique Foundation (based on academic merit)
+\end{itemize}
+}
+
+\cventry{2022 -- 2025}{}{École nationale supérieure polytechnique de Yaoundé}{Yaoundé, Cameroon}{}{
+\begin{itemize}[leftmargin=0.15in, topsep=0pt, itemsep=0.0em]
+\item Preparatory classes
+\item Advanced courses in Mathematics, Physics, and Computer Science
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%   PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\cventry{2025}{}{High-Dimensional Numerical Integration}{École Polytechnique, Paris}{}{
+\begin{itemize}[leftmargin=0.15in, topsep=0pt, itemsep=0.0em]
+\item Implemented and benchmarked three numerical integration methods (Riemann sums, adaptive quadrature, Monte Carlo) in Python
+\item Built confidence intervals for Monte Carlo estimators using the Central Limit Theorem and Slutsky's theorem
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%   PROFESSIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Professional Experience}
+
+\cventry{Sep 2025 -- Mar 2026}{}{Cordée de la réussite, Lycée Suger}{Saint Denis, France}{}{
+\begin{itemize}[leftmargin=0.15in, topsep=0pt, itemsep=0.0em]
+\item Mentored high school students through weekly academic tutoring in mathematics and physical sciences, and guided them in designing and testing scientific projects
+\item Promoted equal opportunity and scientific outreach by fostering problem-solving skills, scientific discipline, and self-confidence
+\end{itemize}
+}
+
+\cventry{Jul 2023 -- Jul 2025}{}{Intelligentsia Corporation}{Yaoundé, Cameroon}{}{
+\begin{itemize}[leftmargin=0.15in, topsep=0pt, itemsep=0.0em]
+\item Delivered intensive academic tutoring in advanced mathematics and physics to high school seniors preparing for competitive entrance exams to top engineering schools
+\item Provided personalized career counseling and academic orientation, guiding students through school selections and application strategies aligned with their profiles
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%   CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Certifications}
+
+\begin{itemize}[leftmargin=.2in]
+\setlength\itemsep{.1em}
+\item \textbf{Advanced Learning Algorithms} — Andrew Ng, Coursera (Jul 2026)
+\item \textbf{Supervised Machine Learning: Regression and Classification} — Andrew Ng, Coursera (Jan 2026)
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%   EXTRACURRICULAR ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Extracurricular Activities}
+
+\cventry{2020 -- 2022}{}{Football Academy Player — Midfielder}{Red Star du Mfoundi, Yaoundé}{}{
+\begin{itemize}[leftmargin=0.15in, topsep=0pt, itemsep=0.0em]
+\item Trained in a competitive youth football academy, developing high-level athletic discipline, tactical awareness, and strategic vision as a central midfielder
+\item Demonstrated leadership, adaptability, and effective communication under pressure during regional competitions and group training sessions
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%   SKILLS & INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Skills \& Interests}
+
+\begin{itemize}[leftmargin=.2in]
+\setlength\itemsep{.1em}
+\item \textbf{Languages:} French (Native), English (Beginner)
+\item \textbf{IT Skills:} Python (NumPy, Pandas, Matplotlib, etc.), Microsoft Office, LaTeX
+\item \textbf{Interests:} Football, basketball, volleyball, badminton, swimming, anime, cooking, Rubik's cube
+\end{itemize}
+
+\end{document}
+%% end of file `template.tex'.
