@@ -11,6 +11,18 @@
 
 ## [Unreleased]
 
+### Added
+- [x] PSC (École Polytechnique, with CMA CGM): deep learning for vessel ETA prediction to cut fuel consumption and CO2 emissions
+
+### Changed
+- [x] Languages: English (Intermediate), Chinese (Beginner)
+- [x] IT Skills: Python, C++, Java
+- [x] Sports: football stated as competitive level
+- [x] Interests: add drawing
+- [x] ENS Yaoundé: remove preparatory classes, note Software Engineering specialisation and Cameroon's first engineering school
+- [x] École Polytechnique: mention France's top engineering school, dates 2025--2028
+- [x] LinkedIn URL shortened to `in/ismael-pouansi`
+
 ---
 
 ## [1.2.0] — 2026-09-05
