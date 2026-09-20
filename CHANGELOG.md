@@ -27,6 +27,11 @@
 
 ## [Unreleased]
 
+### Changed
+- [x] Education titles state each school's national standing: École Polytechnique (France's top leading school), ENS Yaoundé (Cameroon's top engineering school)
+- [x] École Polytechnique: add advanced Mathematics, Physics, and Computer Science coursework
+- [x] Formatting: eased line and item spacing for readability, still one page
+
 ---
 
 ## [1.2.0] — 2026-09-05
